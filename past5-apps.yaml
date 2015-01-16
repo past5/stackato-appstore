@@ -8,7 +8,7 @@ apps:
   id: cronemail
   desc: a shell script that schedules cron jobs to send emails with attachment
   commit: master
-  repo: https://github.com/past5/cron-email.git
+  src: https://github.com/past5/cron-email.git
   info: https://github.com/past5/cron-email.git/#readme
   icon: default
   mem: 128
