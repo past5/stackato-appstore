@@ -1,17 +1,15 @@
 store:
-  title: Third Party Apps for Stackato
-  contact: Stackato Support <stackato-support@activestate.com>
-  icon: https://get.stackato.com/store/icon/third-party.png
+  title: Past 5 Apps for Stackato
+  contact: Sev Geraskin <geraskin@gmail.com>
+  icon: http://www.past5.com/assets/themes/past5/images/past5.png
 
-apps:
-- name: Ace Editor
-  id: ace
-  desc: Ace is a standalone code editor written in JavaScript, used by Cloud9 IDE.
-  framework: node
-  runtime: node
-  license: MPL
-  commit: stackato
-  src: https://github.com/Stackato-Apps/ace.git
-  info: https://github.com/Stackato-Apps/ace/#readme
+
+- name: Cron Email
+  id: cronemail
+  desc: a shell script that schedules cron jobs to send emails with attachment
+  commit: master
+  src: https://github.com/past5/cron-email.git
+  info: https://github.com/past5/cron-email.git/#readme
   icon: default
   mem: 128
+
