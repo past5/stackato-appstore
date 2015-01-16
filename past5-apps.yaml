@@ -4,9 +4,15 @@ store:
   icon: http://www.past5.com/assets/themes/past5/images/past5.png
 
 apps:
+
 - name: Cron Email
   id: cronmail
   desc: a shell script that schedules cron jobs to send emails with attachment
+  framework: 
+  runtime: 
+  services: 
+  license: 
+  commit: master
   src: https://github.com/past5/cron-email
   info: https://github.com/past5/cron-email/#readme
   icon: default
@@ -15,6 +21,11 @@ apps:
 - name: Past5 Blog
   id: blog
   desc: past 5 blog
+  framework: 
+  runtime: 
+  services: 
+  license: 
+  commit: master
   src: https://github.com/past5/past5.github.io
   info: https://github.com/past5/past5.github.io/#readme
   icon: default
