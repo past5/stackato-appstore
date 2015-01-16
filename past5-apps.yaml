@@ -4,12 +4,14 @@ store:
   icon: http://www.past5.com/assets/themes/past5/images/past5.png
   
 apps:
-- name: Cron Email
-  id: cronemail
-  desc: a shell script that schedules cron jobs to send emails with attachment
+- name: Bottle Currency Converter
+  id: bottle-currency
+  desc: Currency converter using Python bottle framework
+  framework: python
+  runtime: python27
+  services: redis
   commit: master
-  src: https://github.com/past5/cron-email.git
-  info: https://github.com/past5/cron-email.git/#readme
-  icon: default
+  src: https://github.com/Stackato-Apps/bottle-currency.git
+  info: https://github.com/Stackato-Apps/bottle-currency/#readme
+  icon: https://get.stackato.com/store/icon/currency.png
   mem: 128
-
