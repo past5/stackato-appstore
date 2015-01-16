@@ -12,12 +12,4 @@ apps:
   info: https://github.com/past5/cron-email.git/#readme
   icon: default
   mem: 128
-  
-- name: Past 5 Blog
-  id: past5blog
-  desc: past 5 blog
-  commit: master
-  repo: https://github.com/past5/past5.github.io.git
-  info: https://github.com/past5/past5.github.io.git/#readme
-  icon: default
-  mem: 256
+
