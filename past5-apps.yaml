@@ -9,7 +9,7 @@ apps:
   id: cronmail
   desc: a shell script that schedules cron jobs to send emails with attachment
   commit: master
-  srx: https://github.com/past5/cron-email.git
+  src: https://github.com/past5/cron-email.git
   info: https://github.com/past5/cron-email.git/#readme
   icon: default
   mem: 64
@@ -18,7 +18,7 @@ apps:
   id: blog
   desc: past 5 blog
   commit: master
-  repo: https://github.com/past5/past5.github.io.git
+  src: https://github.com/past5/past5.github.io.git
   info: https://github.com/past5/past5.github.io.git/#readme
   icon: default
   mem: 256
