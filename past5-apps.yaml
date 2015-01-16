@@ -7,10 +7,6 @@ apps:
 - name: Cron Email
   id: cronemail
   desc: a shell script that schedules cron jobs to send emails with attachment
-  framework: shell
-  runtime: shell
-  services: 
-  license: MIT
   commit: master
   src: https://github.com/past5/cron-email.git
   info: https://github.com/past5/cron-email.git/#readme
