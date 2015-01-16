@@ -1,12 +1,16 @@
 store:
   title: Past 5 Git Apps
-  contact: geraskin@gmail.com
+  contact: Sev Geraskin <geraskin@gmail.com>
   icon: http://www.past5.com/assets/themes/past5/images/past5.png
-
+  
 apps:
 - name: Cron Email
   id: cronemail
   desc: a shell script that schedules cron jobs to send emails with attachment
+  framework: shell
+  runtime: shell
+  services: 
+  license: MIT
   commit: master
   src: https://github.com/past5/cron-email.git
   info: https://github.com/past5/cron-email.git/#readme
