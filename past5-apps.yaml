@@ -5,19 +5,19 @@ store:
 
 apps:
 - name: Cron Email
-  id: cronmail
+  id: cronemail
   desc: a shell script that schedules cron jobs to send emails with attachment
   commit: master
-  src: https://github.com/past5/cron-email.git
+  repo: https://github.com/past5/cron-email.git
   info: https://github.com/past5/cron-email.git/#readme
   icon: default
-  mem: 64
+  mem: 128
   
-- name: Past5 Blog
-  id: blog
+- name: Past 5 Blog
+  id: past5blog
   desc: past 5 blog
   commit: master
-  src: https://github.com/past5/past5.github.io.git
+  repo: https://github.com/past5/past5.github.io.git
   info: https://github.com/past5/past5.github.io.git/#readme
   icon: default
   mem: 256
