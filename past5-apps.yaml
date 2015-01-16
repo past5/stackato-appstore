@@ -1,17 +1,17 @@
 store:
-  title: Past 5 Git Apps
-  contact: Sev Geraskin <geraskin@gmail.com>
-  icon: http://www.past5.com/assets/themes/past5/images/past5.png
-  
+  title: Third Party Apps for Stackato
+  contact: Stackato Support <stackato-support@activestate.com>
+  icon: https://get.stackato.com/store/icon/third-party.png
+
 apps:
-- name: Bottle Currency Converter
-  id: bottle-currency
-  desc: Currency converter using Python bottle framework
-  framework: python
-  runtime: python27
-  services: redis
-  commit: master
-  src: https://github.com/Stackato-Apps/bottle-currency.git
-  info: https://github.com/Stackato-Apps/bottle-currency/#readme
-  icon: https://get.stackato.com/store/icon/currency.png
+- name: Ace Editor
+  id: ace
+  desc: Ace is a standalone code editor written in JavaScript, used by Cloud9 IDE.
+  framework: node
+  runtime: node
+  license: MPL
+  commit: stackato
+  src: https://github.com/Stackato-Apps/ace.git
+  info: https://github.com/Stackato-Apps/ace/#readme
+  icon: default
   mem: 128
