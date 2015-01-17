@@ -8,8 +8,8 @@ store:
   id: cronemail
   desc: a shell script that schedules cron jobs to send emails with attachment
   commit: master
-  src: https://github.com/past5/cron-email.git
-  info: https://github.com/past5/cron-email.git/#readme
+  src: https://github.com/past5/cron-email
+  info: https://github.com/past5/cron-email/#readme
   icon: default
   mem: 128
 
